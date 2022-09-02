@@ -9,6 +9,7 @@ export async function getCategories(
   console.log('getCategories: call');
 
   let a = 1;
+  let b = c;
   return {
     statusCode: 200,
     body: JSON.stringify({
