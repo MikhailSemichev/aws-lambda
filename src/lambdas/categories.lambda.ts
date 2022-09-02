@@ -8,10 +8,11 @@ export async function getCategories(
 ): Promise<APIGatewayProxyResult> {
   console.log('getCategories: call');
 
+  let a = 1;
   return {
     statusCode: 200,
     body: JSON.stringify({
-      message: `categories ${a}`,
+      message: 'categories',
     }),
   };
 }
